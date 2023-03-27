@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: url(background.jpg);
+}
+
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.contenedor {
+    width: 100rem;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.nav-bg {
+    background-color: rgb(206, 152, 90);
+}
+
+.navegacion-principal {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    color:#FFFFFF;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color:#f0d045;
+    color:black
+}
