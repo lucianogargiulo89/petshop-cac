@@ -7,89 +7,92 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
     <title>Contacto</title>
-    <link rel="icon" href="pets.png">
+    <link rel="icon" href="paw-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
-<body>
-    <header>
-        <h1>PET SHOP Felix</h1>
+<body class="body">
+    <header class="header">
+        <div class="header__contenedor">
+            <a class="header__enlace" href="index.html">
+                <h1 class="header-titulo">FELIX <span class="header-titulo header-titulo--reducido">Pet Shop</span><svg class="header-titulo--icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg></h1>
+            </a>
+            <nav class="navegacion-principal">
+                    <a class="navegacion-principal__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion-principal__enlace" href="#">Shop</a>
+                    <a class="navegacion-principal__enlace" href="#">Adopciones</a>
+                    <a class="navegacion-principal__enlace" href="#">Nosotros</a>  
+                    <a class="navegacion-principal__enlace navegacion-principal__enlace--activo" href="contacto.html">Contacto</a>  
+            </nav>
+        </div> <!--header__contenedor-->
     </header>
 
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">Inicio</a>
-            <a href="#">Shop</a>
-            <a href="#">Veterinaria</a>
-            <a href="#">Adopciones</a>
-            <a href="#">Blog</a>  
-            <a href="contacto.html">Contacto</a>  
-        </nav>
-    </div>
+    <main class="main-contacto">
+        <div class="flex-contacto"> 
+            <address class="contenedor-datos">
+                    <h2 class="contenedor-datos__titulo">Veni a visitarnos...</h2>
+                        <div class="datos-contacto">
+                                <div class="datos-contacto__direccion">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="11" r="3" />
+                                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                                    </svg>
+                                    <p class="datos-contacto__texto">Av. de Mayo 982 Caba</p>
+                                </div><!--div direccion-->
+                                <div class="datos-contacto__mail">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" />
+                                            <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
+                                        </svg>
+                                        <p class="datos-contacto__texto">felixpetshop@gmail.com</p>
+                                </div> <!--div mail-->
+                                <div class="datos-contacto__telefono">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                    <p class="datos-contacto__texto">77843784341</p>
+                                </div><!--div telefono-->
+                        </div><!--div datos de contacto-->
+                        <div class="mapa-contacto">
+                                <iframe class="mapa-contacto__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5522.600370229546!2d-58.382993243775445!3d-34.61028483527336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1679186567660!5m2!1ses!2sar" width="400" height="300" style="border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        
+            </address>
 
-    <main>
-    <!-- Direccion y mapa -->
-    <address>
-        <h2>Veni a visitarnos</h2>
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-          </svg>
-        <p>Av. de Mayo 982 Caba</p>
-
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="10" y1="14" x2="21" y2="3" />
-            <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
-          </svg>
-        <p>petshoppython@gmail.com</p>
-
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-          </svg>
-        <p>77843784341</p>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5522.600370229546!2d-58.382993243775445!3d-34.61028483527336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1679186567660!5m2!1ses!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </address>
-
-    <!-- Formulario de contacto -->
-<section>
-    <h2>Contacto</h2>
-
-    <form action="">
-        <fieldset>
-            <legend>Escribinos tu consulta</legend>
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder="Tu nombre" required><br>
-            </div>
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Tu e-mail" required><br>
-            </div>
-            <div>
-                <label for="telefono">Telefono (Opcional)</label>
-                <input type="tel" id="telefono" placeholder="Tu telefono"><br>
-            </div>
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea rows="10" cols="20" id="mensaje" required placeholder="Escribinos tu consulta..."></textarea><br>
-            </div>
-            <div>
-                <label for="ofertas-noticias">"Deseo recibir ofertas y noticias por e-mail"</label>
-                <input type="checkbox" name="ofertas-noticias" id="ofertas-noticias" value="si" checked><br>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-        </fieldset> 
-      </form>
-</section>
-
+            <form class="formulario">
+            <legend class="formulario__legend">¡Escribinos!</legend>
+            <svg class="formulario__icon1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
+            <svg class="formulario__icon2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
+            
+            <div class="formulario__fieldset">
+                <div class="formulario__item">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <input type="text" id="nombre"class="formulario__input" placeholder="Tu nombre..." required>
+                </div>
+                <div class="formulario__item">
+                    <label for="email" class="formulario__label">E-Mail</label>
+                    <input type="email" id="email" class="formulario__input" placeholder="Tu e-mail..." required>
+                </div>
+                <div class="formulario__item">
+                    <label for="telefono"class="formulario__label">Telefono (Opcional)</label>
+                    <input type="tel" id="telefono" class="formulario__input" placeholder="Tu telefono...">
+                 </div>
+                 <div class="formulario__item"></div>
+                    <label for="mensaje" class="formulario__label">Mensaje</label>
+                    <textarea rows="4" cols="10" id="mensaje"class="formulario__input" placeholder="Escribinos tu mensaje..." 
+                    required></textarea>
+                    <input type="submit" class="formulario__boton" value="Enviar">
+                </div>
+                 </form>
+             </div><!--flex-contacto-->
     </main>
-
+    
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
