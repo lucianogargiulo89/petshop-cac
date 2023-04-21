@@ -262,7 +262,7 @@ main {
     opacity: 0.8;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .header__contenedor {
         flex-flow: column nowrap;
         align-items: center;
