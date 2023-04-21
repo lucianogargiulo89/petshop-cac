@@ -249,20 +249,23 @@ main {
 }
 
 .footer {
-    display: block;
-    position: fixed;
+    /* display: block;
+    position: absolute;
     bottom: 0;
     border: 2px solid black;
     background-color: white;
     width: 100%;
     padding: 20px;
     text-align: center;
-    border: none;
+    border: none; */
     /* box-shadow: 0 0 2rem var(--secundario); */
     opacity: 0.8;
 }
 
-@media (max-width: 730px) {
+
+
+
+@media (max-width: 1000px) {
     .header__contenedor {
         flex-flow: column nowrap;
         align-items: center;
@@ -286,6 +289,10 @@ main {
         align-items: center;
         width: 70%;
         margin: 0 auto;
+    }
+
+    .formulario {
+        margin-bottom: 50px;
     }
 
     .mapa-contacto__iframe {
