@@ -9,12 +9,6 @@
     --enlace:#27187e;
 }
 
-/* #27187e
-#758bfd
-#aeb8fe
-#f1f2f6
-#ff8600 */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -671,73 +665,6 @@ h3.seleccion__nombre {
 .front--olivia {
     background-image: url(adopciones/Olivia.jpg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .cardAdopciones__img {
-    height: 300px;
-    width: 90%;
-    margin: 10px auto;
-    display: block;
-    border-radius: inherit;
-    border: 2px solid var(--blanco);
-    background-size:cover;
-    background-position: center;
-    cursor: pointer;
-}
-
-.cardAdopciones__title {
-    color:var(--secundario);
-    padding-bottom: 10px;
-    border-bottom: 1px solid white;
-}
-
-.cardAdopciones__paragraph {
-    margin-top: 10px
-}
-
-.cardAdopciones__paragraph--inferior {
-    color:var(--enlace);
-    bottom: 0;
-}
-
-.card__cta {
-    display: block;
-    text-decoration: none;
-    color:inherit;
-    background-color: rgb(3, 65, 44);
-    padding: 10px 0;
-    border-radius: 10px;
-} */
-
-/* .cardAdopciones__img--1 {
-    background-image: url(Mimada.jpg);
-
-} */
-
-
-
-
-
-
-
-
 
 
 
