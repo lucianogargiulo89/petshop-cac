@@ -28,9 +28,9 @@
                 </form>
                 <nav class="navegacion-principal">
                         <a class="navegacion-principal__enlace navegacion-principal__enlace--activo" href="index.html">Inicio</a>
-                        <a class="navegacion-principal__enlace" href="#">Shop</a>
-                        <a class="navegacion-principal__enlace" href="#">Adopciones</a>
-                        <a class="navegacion-principal__enlace" href="#">Nosotros</a>  
+                        <a class="navegacion-principal__enlace" href="shop.html">Shop</a>
+                        <a class="navegacion-principal__enlace" href="adopciones.html">Adopciones</a>
+                        <a class="navegacion-principal__enlace" href="nosotros.html">Nosotros</a>  
                         <a class="navegacion-principal__enlace " href="contacto.html">Contacto</a>  
                 </nav>
             </div> <!--header__contenedor-->
@@ -38,43 +38,80 @@
         <main>
             <section class="hero">
                 <div class="hero__text">
-                    <h1 class="hero__titulo">Hero Text</h1>
+                    <h1 class="hero__titulo">We Get Pet Care!</h1>
                     <p class="hero__slogan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eos exercitationem, excepturi cum, quibusdam consectetur nam, dicta ullam doloribus voluptatem ex harum impedit odit? Doloribus nisi velit, debitis neque temporibus vel aut a sed nostrum nobis optio vero ullam accusamus ipsam sapiente quas tempore dolores quod atque? Saepe</p>
-                    <div class="hero__logo">
-                        <h1 class="header__titulo"><img class="header__titulo--icon" src="iconos/paw-logo.png">FELIX <span class="header__titulo header__titulo--reducido"><span class="color__titulo--reducido">Pet</span> Shop</span></h1>
-                    </div>
-                    <div class="hero__redes">
-                        <a class="hero__enlace--facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                            <img class="hero__icono hero__icono--facebook" src="facebook-icon.png">
-                        </a>
-                        <a class="hero__enlace--instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            <img class="hero__icono hero__icono--instagram" src="instagram-icon.png"> 
-                        </a>
-                        <a class="hero__enlace--twitter" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                            <img class="hero__icono hero__icono--twitter" src="twitter-icon.png">
-                        </a>
+                    
+                    <div class="hero__inferior">
+                        <div class="hero__logo">
+                            <h1 class="header__titulo"><img class="header__titulo--icon" src="iconos/paw-logo.png">FELIX <span class="header__titulo header__titulo--reducido"><span class="color__titulo--reducido">Pet</span> Shop</span></h1>
+                        </div>
+                        <div class="hero__redes">
+                            <a class="hero__enlace--facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="hero__icono hero__icono--facebook" src="iconos/facebook-icon.png">
+                            </a>
+                            <a class="hero__enlace--instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="hero__icono hero__icono--instagram" src="iconos/instagram-icon.png"> 
+                            </a>
+                            <a class="hero__enlace--twitter" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="hero__icono hero__icono--twitter" src="iconos/twitter-icon.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="hero__img"></div>
             </section>
 
-            <h2 class="seleccion__titulo">Un producto para cada mascota</h2>
-            <div class="seleccion">
-                
+            <section class="seleccion">
+            <p class="seleccion__titulo">Productos para cada mascota</p>
+            <div class="seleccion__contenedor">
                 
                 <a href="#" class="seleccion__enlace seleccion__enlace--perro">
                 <figure class="seleccion__img--perro"></figure>
-                <h3>Perro</h3>
+                <h3 class="seleccion__nombre">Perros</h3>
                 </a>
                 
                 <a href="#" class="seleccion__enlace seleccion__enlace--gato">
                 <figure class="seleccion__img--gato"></figure>
-                <h3>Gato</h3>
+                <h3 class="seleccion__nombre">Gatos</h3>
                 </a>
             </div>
+            </section>
 
-            </div>
-        </section>
+            <section class="sucursal">
+                <div class="sucursal__contenedor">
+                    <div class="sucursal__img">
+                    </div>
+                    <div class="sucursal__info">
+                        <h2>Nuestra sucursal</h2><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quo doloremque illum fuga. Reiciendis, magni nulla. Autem harum necessitatibus incidunt.</p>
+                        <p>Av. de Mayo 982 Caba</p>
+                    </div>
+
+                    <a class="sucursal__boton" href="contacto.html" rel="noopener noreferrer">
+                        <p>Mas Info</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="iframeIndex">
+                <div class="iframeIndex__contenedor">
+                        <div iframeIndex__video>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TbgB5zH8_3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="iframeIndex__contenedor">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FVUQfoCAUGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     </div>
+
+                </div> 
+            </section>
+
+
         </main>
+
+        <footer class="footer">
+            <p>Todos los derechos reservados &copy;</p>
+        </footer>
     </body>
 </html>

@@ -24,9 +24,9 @@
             </form>
             <nav class="navegacion-principal">
                     <a class="navegacion-principal__enlace" href="index.html">Inicio</a>
-                    <a class="navegacion-principal__enlace" href="#">Shop</a>
-                    <a class="navegacion-principal__enlace" href="#">Adopciones</a>
-                    <a class="navegacion-principal__enlace" href="#">Nosotros</a>  
+                    <a class="navegacion-principal__enlace" href="shop.html">Shop</a>
+                    <a class="navegacion-principal__enlace" href="adopciones.html">Adopciones</a>
+                    <a class="navegacion-principal__enlace" href="nosotros.html">Nosotros</a>  
                     <a class="navegacion-principal__enlace navegacion-principal__enlace--activo" href="contacto.html">Contacto</a>  
             </nav>
         </div> <!--header__contenedor-->
@@ -35,7 +35,7 @@
     <main class="main-contacto">
         <div class="flex-contacto"> 
             <address class="contenedor-datos">
-                    <h2 class="contenedor-datos__titulo">Veni a visitarnos...</h2>
+                    <p class="contenedor-datos__titulo">Veni a visitarnos...</p>
                         <div class="datos-contacto">
                                 <div class="datos-contacto__direccion">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -66,7 +66,7 @@
                         </div>
             </address>
 
-            <form class="formulario">
+            <form class="formulario" name="contactoForm" action="" onsubmit=""  method="POST">
             <legend class="formulario__legend">¡Escribinos!</legend>
             
             <div class="formulario__fieldset">
@@ -93,5 +93,8 @@
              
     </main>
 
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy;</p>
+    </footer>
 </body>
 </html>
