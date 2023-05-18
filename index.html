@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
     <link rel="icon" href="paw-favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Felix Pet Shop</title>
 
 </head>
+
     <body class="body">
+
         <header class="header">
             <div class="header__contenedor">
                 <a class="header__enlace" href="index.html">
@@ -22,24 +25,33 @@
                     <h1 class="header__titulo"><img class="header__titulo--icon" src="iconos/paw-logo.png">FELIX <span class="header__titulo header__titulo--reducido"><span class="color__titulo--reducido">Pet</span> Shop</span></h1>
                     </div>
                 </a>
-                <form class="busqueda">
+                <!-- <form class="busqueda">
                     <input class="header__search"type="search" placeholder="¿Que estas buscando?">
                     <input class="header__search--boton" type="submit" value="Buscar">
-                </form>
-                <nav class="navegacion-principal">
+                </form> -->
+
+                
+                <button id="abrir" class="button--abrir"><i class="bi bi-list"></i></button>
+                
+                
+                
+                <nav id="nav" class="navegacion-principal">
+                        <!-- <button id="cerrar" class="button--cerrar"><i class="bi bi-x"></i></button> -->
                         <a class="navegacion-principal__enlace navegacion-principal__enlace--activo" href="index.html">Inicio</a>
                         <a class="navegacion-principal__enlace" href="shop.html">Shop</a>
                         <a class="navegacion-principal__enlace" href="adopciones.html">Adopciones</a>
-                        <a class="navegacion-principal__enlace" href="nosotros.html">Nosotros</a>  
+                        <a class="navegacion-principal__enlace" href="nosotros.html" onclick="hola()">Nosotros</a>  
                         <a class="navegacion-principal__enlace " href="contacto.html">Contacto</a>  
                 </nav>
+
             </div> <!--header__contenedor-->
         </header>
         <main>
             <section class="hero">
                 <div class="hero__text">
-                    <h1 class="hero__titulo">We Get Pet Care!</h1>
-                    <p class="hero__slogan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eos exercitationem, excepturi cum, quibusdam consectetur nam, dicta ullam doloribus voluptatem ex harum impedit odit? Doloribus nisi velit, debitis neque temporibus vel aut a sed nostrum nobis optio vero ullam accusamus ipsam sapiente quas tempore dolores quod atque? Saepe</p>
+                    <h1 class="hero__titulo">We get pet care</h1>
+                    <p class="hero__slogan">¡Bienvenidos y Gracias por visitar FELIX Pet Shop!<br><br>
+                        Somos una tienda dedicada al cuidado y bienestar de tus mascotas.<br>En FELIX encontrarás todo lo que necesitas para consentir a tu fiel compañero, alimentos, jueguetes, productos de higiene y cuidado, consejos y mas!!!</p>
                     
                     <div class="hero__inferior">
                         <div class="hero__logo">
@@ -96,15 +108,12 @@
 
             <section class="iframeIndex">
                 <div class="iframeIndex__contenedor">
-                        <div iframeIndex__video>
+                    
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/TbgB5zH8_3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
 
-                    <div class="iframeIndex__contenedor">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/FVUQfoCAUGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                     </div>
+                </div>
 
-                </div> 
             </section>
 
 
@@ -113,5 +122,7 @@
         <footer class="footer">
             <p>Todos los derechos reservados &copy;</p>
         </footer>
+
+       <script src="script.js"></script>
     </body>
 </html>
