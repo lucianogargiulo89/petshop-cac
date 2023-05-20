@@ -1,18 +1,24 @@
 
 const navegacion = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
 
-// cerrar.addEventListener("click", () => {
-//     navegacion.classList.add("visible");
-//     console.log("add");
-// });
 
-// abrir.addEventListener("click", () => {
-//     navegacion.classList.remove("visible");
-//     console.log("remove");
-// });
+abrir.addEventListener('click', toggleDropdown);
+window.addEventListener('click', closeDropdown);
 
-abrir.addEventListener("click", () => {
-    navegacion.classList.toggle("visible");
-});
+
+function toggleDropdown() {
+  navegacion.style.opacity = navegacion.style.opacity === '0' ? '1' : '0';
+}
+
+
+function closeDropdown(event) {
+    if (!event.target.matches('#boton') && !event.target.matches('#nav')) {
+      navegacion.style.opacity = '0';
+    }
+}
+
+
+
+
+
