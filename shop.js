@@ -83,7 +83,7 @@ const productos = [
     {
         id: 9,
         nombre: "Pelota Pawise Crinkle Para Gato",
-        imagen: "./imagenes/pelota pawise crinkle para gato.png",
+        imagen: "./imagenes/pelota-pawise-crinkle-para-gato.png",
         precio: 320,
         categoria: {
             nombre: "Gatos",
@@ -93,7 +93,7 @@ const productos = [
     {
         id: 10,
         nombre: "Soga Cancat Con Nudos",
-        imagen: "./imagenes/soga cancat con nudos.webp",
+        imagen: "./imagenes/soga-cancat-con-nudos.webp",
         precio: 1350,
         categoria: {
             nombre: "Perros",

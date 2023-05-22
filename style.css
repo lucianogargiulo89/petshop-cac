@@ -1,6 +1,6 @@
 
 :root {
-    --primario:#5d94af;
+    --primario:#4994ba;
     --secundario:#ff8600;
     --terciario:#f8cc08c4;
     --blanco:white;
@@ -162,6 +162,7 @@ body {
 
 .button--abrir {
     display: none;
+    z-index: 100;
 }
 
 
@@ -363,7 +364,8 @@ h3.seleccion__nombre {
     justify-content: center;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    gap:20px;
 }
 
 
@@ -531,7 +533,7 @@ h3.seleccion__nombre {
     padding: 20px;
     text-align: center;
     border: none;
-    box-shadow: 0 0 2rem var(--secundario);
+    /* box-shadow: 0 0 2rem var(--secundario); */
     opacity: 0.8;
 }
 
@@ -861,6 +863,8 @@ h3.seleccion__nombre {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
     
 }
 
@@ -879,6 +883,7 @@ h3.seleccion__nombre {
     font-family: 'Boogaloo', cursive;
     text-align: center;
     font-size: 2rem;
+    margin: 30px 0;
 }
 
 .navshop{
@@ -972,6 +977,8 @@ h3.seleccion__nombre {
 .contenedor .contenedor-items .item .boton-item{
     display: block;
     margin: 10px auto;
+    font-family: var(--fuente);
+    font-size: 1.3rem;
     border: none;
     background-color: #ff8600;
     color: #fff;
@@ -993,7 +1000,7 @@ h3.seleccion__nombre {
     overflow: hidden;
     margin-bottom: auto;
     position: sticky !important;
-    top: 0;
+    top: 0px;
     transition: .3s;
     /* Estilos para ocultar */
     margin-right: -100%;
