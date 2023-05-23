@@ -536,14 +536,17 @@ h3.seleccion__nombre {
 }
 
 .adopcionesGrid {
-    margin: 50px auto 50px auto;
+    margin: 50px 50px;
     width: 100vw;
     /* min-width: 650px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap:50px;
+    row-gap:50px;
+    column-gap: 50px;
     margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardAdopciones {
@@ -1101,6 +1104,7 @@ h3.seleccion__nombre {
 
     .hero {
         border-radius: 0px;
+        padding-top: 50px;
     }
 
     .header__contenedor {
@@ -1166,6 +1170,7 @@ h3.seleccion__nombre {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        gap:80px;
     }
 
     .hero__inferior {
