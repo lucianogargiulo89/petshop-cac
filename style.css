@@ -14,6 +14,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--fuente);
 }
 
 html {
@@ -23,6 +24,7 @@ html {
 
 main {
     margin-top: 60px;
+    margin-bottom: 200px;
 }
 
 h3 {
@@ -32,6 +34,11 @@ h3 {
 a {
     text-decoration: none;
 }
+
+p {
+    font-size: 1.5rem;
+}
+
 
 body {
     color:var(--texto);
@@ -94,7 +101,7 @@ body {
 }
 
 .header__titulo--reducido {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color:var(--blanco);
     margin: 0;
 }
@@ -206,7 +213,7 @@ body {
 
 .hero__titulo {
     color: var(--blanco);
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -215,6 +222,7 @@ body {
     color:var(--blanco);
     text-align: center;
     margin: 0 20px;
+    font-size: 1.5rem;
 }
 
 .hero__icono {
@@ -252,7 +260,7 @@ body {
     justify-content: center;
     gap:0px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .seleccion__enlace {
@@ -400,7 +408,8 @@ h3.seleccion__nombre {
 .nosotros__img {
     width: 40%;
     height: 100%;
-    background-image: url(imagenes/alvan-nee-ZCHj_2lJP00-unsplash.jpg);
+    /* background-image: url(imagenes/alvan-nee-ZCHj_2lJP00-unsplash.jpg); */
+    background-image: url(imagenes/alvan-nee-8g0D8ZfFXyA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 0 20px 20px 0;
@@ -568,6 +577,7 @@ h3.seleccion__nombre {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap:50px;
+    margin-bottom: 100px;
 }
 
 .cardAdopciones {
@@ -667,160 +677,20 @@ h3.seleccion__nombre {
 }
 
 
-@media (max-width:480px) {
-
-
-    body {
-        min-width: 310px;
-    }
-
-    main {
-        margin-top: 80px;
-    }
-
-    .main-contacto {
-        margin-top: 100px;
-    }
-
-    .hero {
-        border-radius: 0px;
-    }
-
-    /* .busqueda, */
-    .header__contenedor {
-        /* position: relative; */
-        flex-direction: row;
-        justify-content: space-around;
-        gap:0px;
-        text-align: center;
-        align-items: center;
-        margin: 10px auto;
-        min-width:310px;
-        width: 100%;
-    }
-
-    .button--abrir {
-    display: block;
-    border: 0;
-    background-color: transparent;
-    font-size: 2rem;
-    color: white;
-    margin: 10px;
-    cursor: pointer;
-    }
-
-    .button--abrir:hover {
-        color:var(--enlace);
-    }
-
-    .navegacion-principal {
-        display:none;
-        gap:0px;
-        text-align: center;
-        align-items: center;
-        margin-top:20px;
-        min-width:310px;
-        position:absolute;
-        top: 62px;
-        left: -40px;
-        background: var(--secundario);
-        flex-direction: column;
-        /* flex-wrap: nowrap; */
-        /* justify-content: center; */
-        width: 100vw;
-        height: 55vh;
-        transition: 0.5s;
-        background-image: url(imagenes/paws-transparente.png);
-        background-position: center;
-        background-size: cover;
-    }
-
-    .visible {
-        display:flex;
-    }
-
-    .hero {
-        min-width: 310px;
-        width: 100vw;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        height: 800px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .hero__inferior {
-        margin-top: 20px;
-        flex-direction: column;
-    }
-
-    .hero__titulo {
-        font-size: 3rem;
-    }
-    
-    .hero__text,
-    .hero__img {
-        width: 100%;
-        margin: 10px 0;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .hero__img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .seleccion__contenedor {
-        display: flex;
-        width: 200px;
-        margin: 0 auto;
-    }
-
-    .seleccion__img--gato,
-    .seleccion__img--perro {
-        width: 150px;
-        height: 150px;
-    }
-
-    .sucursal__contenedor {
-        flex-direction: column;
-        justify-content: center;
-        height: 500px;
-        padding: 20px;
-        border-radius: 0;
-        width: 100vw;
-        gap:30px;
-    }
-
-    .sucursal__img {
-        width: 500px;
-        margin-top: 10px;
-    }
-
-    .iframeIndex__contenedor {
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        width: 100vw;
-    }
-
-    iframe {
-        width: 400px;
-        margin: 10px auto;
-    }
-
-}
-
 
 /* ---****CSS SHOP****--- */
 
 .shop{
     margin-top: 80px;
+}
+
+.shop-titulo {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.shop-p {
+    font-size: 1.5rem;
 }
 
 .encabezado{
@@ -916,6 +786,15 @@ h3.seleccion__nombre {
 
 }
 
+.boton-categoria {
+    cursor: pointer;
+}
+
+.boton-categoria:hover {
+    animation:pulse;
+    animation-duration: 1s;
+}
+
 .boton-categoria .active{
     background-color: white;
     color:#ff860a ;
@@ -932,6 +811,7 @@ h3.seleccion__nombre {
     /* oculto lo que queda fuera del .contenedor */
     contain: paint;
     background-color: white;
+    margin-bottom: 50px;
 }
 /* SECCION CONTENEDOR DE ITEMS */
 .contenedor .contenedor-items{
@@ -1163,6 +1043,36 @@ h3.seleccion__nombre {
     .carrito{
         width: 100%;
     }
+
+.header__contenedor {
+    flex-direction: column;
+}
+
+.header__enlace {
+    justify-content: center;
+}
+
+.navegacion-principal {
+    justify-content: space-around;
+}
+
+.hero {
+    height: 700px;
+}
+
+.hero__img {
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.hero__inferior {
+    flex-direction: column;
+}
   }
 
 
@@ -1249,6 +1159,151 @@ h3.seleccion__nombre {
         width: 150px;
         font-size: 1rem;
     }
+
+    body {
+        min-width: 310px;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+
+    .main-contacto {
+        margin-top: 100px;
+    }
+
+    .hero {
+        border-radius: 0px;
+    }
+
+    /* .busqueda, */
+    .header__contenedor {
+        /* position: relative; */
+        flex-direction: row;
+        justify-content: space-around;
+        gap:0px;
+        text-align: center;
+        align-items: center;
+        margin: 10px auto;
+        min-width:310px;
+        width: 100%;
+    }
+
+    .button--abrir {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    }
+
+    .button--abrir:hover {
+        color:var(--enlace);
+    }
+
+    .navegacion-principal {
+        display:none;
+        gap:0px;
+        text-align: center;
+        align-items: center;
+        margin-top:20px;
+        min-width:310px;
+        position:absolute;
+        top: 62px;
+        left: -40px;
+        background: var(--secundario);
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        /* justify-content: center; */
+        width: 100vw;
+        height: 55vh;
+        transition: 0.5s;
+        background-image: url(imagenes/paws-transparente.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .visible {
+        display:flex;
+    }
+
+    .hero {
+        min-width: 310px;
+        width: 100vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero__inferior {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .hero__titulo {
+        font-size: 3rem;
+    }
+    
+    .hero__text,
+    .hero__img {
+        width: 100%;
+        margin: 10px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .seleccion__contenedor {
+        display: flex;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .seleccion__img--gato,
+    .seleccion__img--perro {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sucursal__contenedor {
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        padding: 20px;
+        border-radius: 0;
+        width: 100vw;
+        gap:30px;
+    }
+
+    .sucursal__img {
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    .iframeIndex__contenedor {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+    }
+
+    iframe {
+        width: 400px;
+        margin: 10px auto;
+    }
+
 }
 
 
