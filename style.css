@@ -944,13 +944,14 @@ h3.seleccion__nombre {
     color: white;
     background-color: #4994ba;
     border-color: white;
-    display: grid;
-    /* flex-wrap: nowrap;
-    justify-content: space-evenly; */
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap:30px;
-    grid-row-gap: 30px;
-
+    grid-row-gap: 30px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:30px;
 }
 
 .cond{
@@ -1060,6 +1061,13 @@ h3.seleccion__nombre {
     .contenedor{
         justify-content: center;
         
+    }
+
+    .condiciones {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .contenedor .contenedor-items .item .boton-item{
