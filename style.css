@@ -532,6 +532,11 @@ h3.seleccion__nombre {
     cursor: pointer;
 }
 
+.warning {
+    font-size: 1.3rem;
+    color: var(--enlace);
+}
+
 .footer {
     display: block;
     position: absolute;
