@@ -511,6 +511,10 @@ h3.seleccion__nombre {
     opacity: 0.8;
 }
 
+.footer p {
+    font-size: 1.2rem;
+}
+
 
 /* Pagina Adopciones */
 
@@ -606,6 +610,15 @@ h3.seleccion__nombre {
 .cardAdopciones__titulo {
     align-self: flex-end;
     color:white;
+}
+
+.titulo__adopciones {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding: 10px;
 }
 
 .front--mimada {
@@ -1044,7 +1057,7 @@ h3.seleccion__nombre {
     }
 
     .sub__adopciones {
-        margin-top: 150px;
+        margin-top: 20px;
         width: 90%;
     }
 
@@ -1063,7 +1076,12 @@ h3.seleccion__nombre {
     gap:50px;
     margin-bottom: 100px;
     margin-left: 30px;
+}
 
+    .titulo__adopciones {
+        display: flex;
+        margin-top: 150px;
+    }
 
 }
 
@@ -1251,6 +1269,11 @@ h3.seleccion__nombre {
         display: none;
     }
 
+    .titulo__adopciones {
+        display: flex;
+        margin-top: 120px;
+    }
+
     .adopcionesGrid {
         margin: 50px auto;
         display: grid;
@@ -1260,7 +1283,7 @@ h3.seleccion__nombre {
     }
 
     .sub__adopciones {
-        margin-top: 120px;
+        margin-top: 20px;
         width: 90vw;
         max-width: 310px;
     }
@@ -1296,3 +1319,5 @@ h3.seleccion__nombre {
     .footer {
         min-width: 390px;
     }
+
+}
